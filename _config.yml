@@ -1,0 +1,35 @@
+# Dependencies
+markdown:            kramdown 
+highlighter:         rouge
+
+kramdown:
+  auto_ids: false
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           "/:title"
+
+
+# Setup
+title:               Quantitative Researcher's Blog
+tagline:             "Quantitative Researcher's Blog"
+description:         "Quantitative Researcher's Blog"
+url:                 qisresearch.github.io
+baseurl:             /
+paginate:            5
+
+# About/contact
+author:
+  name:              Quantitative Researcher
+  url:               qisresearch.github.io
+  email:             sysresearcher@gmail.com
+     
+# Custom vars  
+github:
+  repo:           github.com/qisresearch/qisresearch.github.io
+
+# This is the list of pages to incldue in the header of the website.
+pages_list:       ['About', 'Contact']
+
+exclude:          [rmarkdown, compress, rposts]
